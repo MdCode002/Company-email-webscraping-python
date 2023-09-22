@@ -53,22 +53,15 @@ with open('resultats.csv', mode='w', newline='', encoding='utf-8-sig') as file:
             # Analyse HTML avec BeautifulSoup
             soup = BeautifulSoup(page_source, 'html.parser')
 
-            # Écriture du code source dans le fichier 'repertoire_telephonique.txt'
-            with open("repertoire_telephonique.txt", "w", encoding='utf-8-sig') as fic:
-                fic.write(str(soup))
-
-            # Recherche des adresses e-mail et des numéros de téléphone
+            # Recherche des adresses e-mail
             email_matches = soup.find_all(
                 "span", text=re.compile(r"[\w\.-]+@[\w\.-]+"))
-            tel_matches = soup.find_all(
-                "span", text=re.compile(r"(\d{6,}[\s+]*)+"))
-
+            
             # Si une adresse e-mail est trouvée, la récupérer
             if email_matches:
                 email = email_matches[0].get_text()
             else:
                 email = "N/A"
-
             # Afficher l'adresse e-mail
             print(email)
         else:
