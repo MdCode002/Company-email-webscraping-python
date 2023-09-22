@@ -1,6 +1,6 @@
 
 <p align="center">
-    <h1 align="center" Company email webscraping email python</h1>
+    <h1 align="center"> Company email webscraping email python</h1>
 </p>
 This Python script is designed to extract email addresses from a list of company names using web scraping techniques. It utilizes Selenium and BeautifulSoup libraries to automate the process of navigating to company Facebook pages and extracting email addresses.
 
