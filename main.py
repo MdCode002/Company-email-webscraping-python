@@ -10,7 +10,7 @@ import ent as et
 # Initialisation du dictionnaire pour stocker les entreprises
 Entreprises = {}
 
-# Lecture du fichier 'liste2.txt' contenant les noms d'entreprises
+# Lecture du fichier 'liste.txt' contenant les noms d'entreprises
 with open('liste.txt', "r", encoding="utf-8-sig") as file:
     lines = file.readlines()
     for line in lines:
