@@ -15,7 +15,6 @@ This Python script is designed to extract email addresses from a list of company
 
    ```shell
      git clone https://github.com/your_username/web-scraping-email-extractor.git
-     cd web-scraping-email-extractor
 
 2. Install the required dependencies:
     ```shell
