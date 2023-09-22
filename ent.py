@@ -39,5 +39,4 @@ def facebookS(ListeEn, requests, BeautifulSoup, time):
         print(facebook_url)
         return facebook_url
 
-    # Attendre 2 secondes si aucune URL n'est trouvée
     time.sleep(2)
