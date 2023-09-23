@@ -29,3 +29,8 @@ Prepare a list of company names in a file named liste.txt, with one company name
   
 The script will perform web scraping to extract email addresses and save the results in a CSV file named resultats.csv.
 On the first iteration, you will have 30 seconds to enter your Facebook login information. You will not have to log in again while the script runs.
+
+## Legal Disclaimer
+
+I assume no responsibility for the use of this script by third parties. The use of this script is at your own risk and discretion. Please ensure compliance with all applicable laws and regulations regarding data collection and website scraping.
+
