@@ -5,7 +5,7 @@
 This Python script is designed to extract email addresses from a list of company names using web scraping techniques. It utilizes Selenium and BeautifulSoup libraries to automate the process of navigating to company Facebook pages and extracting email addresses.
 
 ## Author
- - Mouhamed Diouf : [@Medzo02](https://github.com/Medzo02)
+ - Mouhamed Diouf : [@MdCode002](https://github.com/MdCode002)
 ## Features
 - Automated web scraping for email extraction.
 - Utilizes Google search to find relevant Facebook pages for companies.
